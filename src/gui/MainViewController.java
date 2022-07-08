@@ -5,6 +5,8 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.MenuItem;
 
 public class MainViewController implements Initializable {
@@ -30,7 +32,7 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMenuItemSobreAction() {
-		System.out.println("Sobre");
+		
 	}
 	
 	@Override

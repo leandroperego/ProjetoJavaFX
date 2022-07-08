@@ -5,7 +5,7 @@ import javafx.scene.control.Alert.AlertType;
 
 public class Alerta {
 
-	public void showAlerta(String titulo, String cabecalho, String conteudo, AlertType tipo) {
+	public static void showAlerta(String titulo, String cabecalho, String conteudo, AlertType tipo) {
 		Alert alerta = new Alert(tipo);
 		alerta.setTitle(titulo);
 		alerta.setHeaderText(cabecalho);
